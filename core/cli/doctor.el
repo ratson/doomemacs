@@ -39,7 +39,7 @@
 
 The Doom doctor is essentially one big, self-contained elisp shell script that
 uses a series of simple heuristics to diagnose common issues on your system.
-Issues that could intefere with Doom Emacs.
+Issues that could interfere with Doom Emacs.
 
 Doom modules may optionally have a doctor.el file to run their own heuristics
 in."
@@ -106,7 +106,7 @@ in."
     (unless NATIVECOMP
       (warn! "Emacs was not built with native compilation support")
       (explain! "Users will see a substantial performance gain by building Emacs with "
-                "native compilation support, availible in emacs 28+."
+                "native compilation support, available in emacs 28+."
                 "You must install a prebuilt Emacs binary with this included, or compile "
                 "Emacs with the --with-native-compilation option.")))
 
